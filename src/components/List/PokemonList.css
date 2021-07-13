@@ -1,0 +1,33 @@
+.PokemonList__div{
+  display: flex;
+  margin: 20px auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.PokemonList__ul{
+  list-style: none;
+  color: #FFF;
+}
+
+.PokemonList__li{
+  margin: 20px;
+  border: 1px solid #FFF;
+  border-radius: 15px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.PokemonList__li:hover{
+  margin: 20px;
+  border: 1px solid #FFF;
+  border-radius: 15px;
+  padding: 20px;
+  transform: scale(1.2);
+  
+}
+
+.PokemonList__h1{
+  color: #FFF;
+}
